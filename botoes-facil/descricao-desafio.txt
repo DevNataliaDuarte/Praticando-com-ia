@@ -1,0 +1,12 @@
+1. Botões com todos os estados
+
+Treina: pseudo-classes, transition, especificidade.
+
+Crie 3 variações de botão (primário, secundário com borda, e perigoso/vermelho). Cada um precisa ter estilo para:
+
+:hover (mudança de cor suave)
+:focus-visible (contorno visível, importante pra acessibilidade e navegação por teclado)
+:active (efeito de “apertar”, tipo transform: scale(0.97))
+:disabled (visual apagado e cursor: not-allowed)
+
+Regras: use classes (.btn, .btn-primary...), variáveis CSS pras cores, e nada de id nem !important. Se precisar de !important, é sinal de que a especificidade está errada.

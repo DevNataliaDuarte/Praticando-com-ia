@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botoẽs</title>
+    <style>
+
+        .container {
+            width: 600px;
+            height: 300px;
+            margin: auto;
+
+            border-radius: 10px;
+            background-color: rgb(130, 163, 255);
+        }
+
+
+        button {
+            padding: 10px 20px;
+            
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+
+            border-radius: 3px;
+        }
+        button#btn1 {
+            cursor: pointer;
+        }
+
+        button#btn1:hover {
+            color: white;
+            background-color: rgba(20, 158, 20, 0.651);
+        }
+        #btn2:active{
+            transform: scale(0.97);
+        }
+        
+        button#btn2 {
+            border-radius: 7px 0px;
+            cursor: not-allowed;
+        }
+        #btn2:hover {
+            border-radius: 0px 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Qué Namora Com Migo?</p>
+        <button id="btn1">Sim</button>
+        <button id="btn2">Naõ</button>
+    </div>
+</body>
+</html>
